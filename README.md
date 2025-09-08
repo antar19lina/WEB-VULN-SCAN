@@ -1,34 +1,49 @@
-# WEB-VULN-SCAN
-🔍 Enhanced Detection Engine
-Advanced XSS Testing: Multiple payload types including event-based, encoded, filter bypass, and DOM-based XSS detection
-Comprehensive SQL Injection: Union-based, boolean-blind, time-based, and error-based SQL injection testing
-Command Injection: OS command injection detection with time-based and output-based verification
-Authentication Testing: Weak credential detection, username enumeration, and session analysis
-🛡️ New Security Checks
-SSL/TLS Analysis: HTTPS implementation, mixed content detection
-Information Disclosure: Sensitive file discovery, directory listing detection
-Input Validation: Buffer overflow testing, template injection detection
-Advanced CSRF: SameSite cookie analysis, state-changing form detection
-🎯 Improved Accuracy
-Smart Payload Selection: Context-aware payload testing
-Response Analysis: Better detection of vulnerabilities through response patterns
-Time-based Detection: Accurate timing analysis for blind vulnerabilities
-Error Pattern Matching: Comprehensive error signature database
-📊 Enhanced Reporting
-Detailed Evidence: More specific vulnerability evidence and context
-Risk Scoring: Severity calculation based on multiple factors
-Technology Detection: Framework and technology stack identification
-Comprehensive Recommendations: Actionable remediation guidance
-🚀 Performance Optimizations
-Intelligent Scanning: Reduced false positives through better validation
-Parallel Testing: Efficient payload testing strategies
-Resource Management: Better handling of timeouts and errors
-Progress Tracking: More granular progress reporting
-The scanner now performs 15 different types of security tests with over 100 different payloads and detection techniques, making it much more accurate and comprehensive for educational security testing purposes.
+# 🌐 WEB-VULN-SCAN  
 
-HOW TO RUN(VS CODE)
-(I)
+An advanced **Web Vulnerability Scanner** built for **educational & authorized security testing**.  
+⚡ Perform 15+ security tests with 100+ payloads and detection techniques.  
+
+---
+
+## 🔍 Features  
+
+### 🧪 Enhanced Detection Engine  
+- 🚨 **Advanced XSS Testing** → Event-based, encoded, filter bypass, and DOM-based XSS  
+- 🗄️ **SQL Injection** → Union-based, boolean-blind, time-based, error-based  
+- 🖥️ **Command Injection** → OS command injection with time & output verification  
+- 🔑 **Authentication Testing** → Weak credentials, username enumeration, session analysis  
+
+### 🛡️ New Security Checks  
+- 🔒 **SSL/TLS Analysis** → HTTPS validation, mixed content detection  
+- 📂 **Information Disclosure** → Sensitive files, directory listing detection  
+- 📝 **Input Validation** → Buffer overflow, template injection detection  
+- 🔗 **Advanced CSRF** → SameSite cookie analysis, state-changing form detection  
+
+### 🎯 Improved Accuracy  
+- 🎛️ **Smart Payload Selection** → Context-aware payloads  
+- 📡 **Response Analysis** → Detect vulns via response patterns  
+- ⏱️ **Time-based Detection** → Accurate blind vuln detection  
+- ❌ **Error Pattern Matching** → Large database of error signatures  
+
+### 📊 Enhanced Reporting  
+- 📑 **Detailed Evidence** → Clear vulnerability context & proof  
+- 🧮 **Risk Scoring** → Multi-factor severity calculation  
+- 🏗️ **Technology Detection** → Framework & stack identification  
+- 🛠️ **Comprehensive Recommendations** → Actionable remediation tips  
+
+### 🚀 Performance Optimizations  
+- ✅ **Intelligent Scanning** → Reduced false positives  
+- ⚡ **Parallel Testing** → Faster payload testing  
+- 🔄 **Resource Management** → Better timeout & error handling  
+- 📈 **Progress Tracking** → Granular scan reporting  
+
+---
+
+## 🛠️ How to Run (VS Code)  
+
+```bash
+# Step 1: Install dependencies
 npm install
-npm run dev
 
-!!!!!! ONLY USE ON URLS WHICH YOU HAVE PERMISSION TO TEST OR PRACTICE IT BLOCKS SCAN FOR PUBLICALLY RESTRICATED TARGETS SUCH HAS INSTAFRAM FACEBOOK etc !!!!!
+# Step 2: Start the development server
+npm run dev
