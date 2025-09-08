@@ -1,5 +1,4 @@
 # WEB-VULN-SCAN
-
 🔍 Enhanced Detection Engine
 Advanced XSS Testing: Multiple payload types including event-based, encoded, filter bypass, and DOM-based XSS detection
 Comprehensive SQL Injection: Union-based, boolean-blind, time-based, and error-based SQL injection testing
