@@ -46,7 +46,14 @@ An advanced **Web Vulnerability Scanner** built for **educational & authorized s
 npm install
 
 # Step 2: Start the development server
-npm run dev
+npm run dev 
 
 
-####!!!!!! ONLY USE FOR THE URLS YOU HAVE PERMISSION TO TEST OR PRACTICE , SCANS GET BLOCKED FOR PUBLICALLY RESTRICTED WEBSITES LIKE FACEBOOK , INSTAGRAM etc . For such scans you can use nuclei or bufferfuzzer etc . !!!!! ####
+⚠️ Disclaimer
+
+🚨 Only use this tool on URLs you have explicit permission to test.
+
+❗!!!!!! ONLY USE FOR THE URLS YOU HAVE PERMISSION TO TEST OR PRACTICE , SCANS GET BLOCKED FOR PUBLICALLY RESTRICTED WEBSITES LIKE FACEBOOK , INSTAGRAM etc . For such scans you can use nuclei or bufferfuzzer etc . !!!!! ❗####
+
+❌ Scanning publicly restricted targets such as Instagram, Facebook, etc. is forbidden.
+✅ This tool is strictly for educational and authorized security testing purposes.
