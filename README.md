@@ -25,3 +25,10 @@ Parallel Testing: Efficient payload testing strategies
 Resource Management: Better handling of timeouts and errors
 Progress Tracking: More granular progress reporting
 The scanner now performs 15 different types of security tests with over 100 different payloads and detection techniques, making it much more accurate and comprehensive for educational security testing purposes.
+
+HOW TO RUN(VS CODE)
+(I)
+npm install
+npm run dev
+
+!!!!!! ONLY USE ON URLS WHICH YOU HAVE PERMISSION TO TEST OR PRACTICE IT BLOCKS SCAN FOR PUBLICALLY RESTRICATED TARGETS SUCH HAS INSTAFRAM FACEBOOK etc !!!!!
